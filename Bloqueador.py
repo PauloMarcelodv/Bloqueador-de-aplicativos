@@ -33,7 +33,7 @@ def bloqueador():
 
 
 janela = tk.Tk()
-janela.title("🔒 Bloqueador de Aplicativos")
+janela.title("Bloqueador de Aplicativos")
 janela.geometry("420x280")
 janela.config(bg="#2c3e50")
 
@@ -48,7 +48,7 @@ janela.geometry(f"{largura}x{altura}+{x}+{y}")
 
 titulo = tk.Label(
     janela,
-    text="🔒 Bloqueador de Aplicativos",
+    text="Bloqueador de Aplicativos",
     font=("Arial", 16, "bold"),
     fg="white",
     bg="#2c3e50"
@@ -68,7 +68,7 @@ entrada_tempo.pack(pady=8)
 
 btn_bloquear = tk.Button(
     janela,
-    text="🚫 Bloquear",
+    text="Bloquear",
     command=bloqueador,
     font=("Arial", 12, "bold"),
     bg="#e74c3c",
